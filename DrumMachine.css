@@ -1,0 +1,29 @@
+#drum-machine {
+    display: grid;
+    justify-items: center; 
+    align-items: center; 
+    background-color: #f0f0f0;
+    padding: 20px; 
+    width: 500px;
+    margin-left:450px;
+    margin-top: 100px;
+}
+
+.drum-pad {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    border: 2px solid #333;
+    font-size: 24px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+#display {
+    grid-column: 1 / 4; 
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
