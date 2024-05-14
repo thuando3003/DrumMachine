@@ -19,6 +19,12 @@
     font-size: 24px;
     cursor: pointer;
     margin-bottom: 10px;
+
+}
+
+.drum-pad.dis {
+    pointer-events: none;
+    opacity: 0.5;
 }
 
 #display {
@@ -27,3 +33,5 @@
     font-size: 24px;
     margin-bottom: 20px;
 }
+
+
